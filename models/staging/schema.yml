@@ -4,5 +4,5 @@ sources:
       database: "{{('dbtsales')}}"
       schema: raw
       tables: 
-       - name: raw_orders
-       - name: raw_customers
+       - name: orders
+       - name: customers
