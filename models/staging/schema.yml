@@ -1,0 +1,8 @@
+version: 2
+sources:
+    - name: datafeed_schema
+      database: "{{('dbtsales')}}"
+      schema: raw
+      tables: 
+       - name: raw_orders
+       - name: raw_customers
